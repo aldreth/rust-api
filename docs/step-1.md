@@ -19,3 +19,9 @@ git commit -m 'Initial project setup'
 
 ## Run tests in github actions
   * Add ./workflows/rust.yml
+
+## Deploy to heroku
+  * Add Procfile
+  * Create heroku app
+  * Add rust buildpack - https://github.com/emk/heroku-buildpack-rust
+  * Create SECRET_KEY environment config var - `openssl rand -base64 32`
