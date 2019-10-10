@@ -15,3 +15,4 @@ git commit -m 'Initial project setup'
 * https://rocket.rs/v0.4/guide/getting-started/
   * Add rocket crate
   * Update main.rs
+  * Add test
