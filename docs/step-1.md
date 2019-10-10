@@ -16,3 +16,6 @@ git commit -m 'Initial project setup'
   * Add rocket crate
   * Update main.rs
   * Add test
+
+## Run tests in github actions
+  * Add ./workflows/rust.yml
