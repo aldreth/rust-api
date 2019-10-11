@@ -1,0 +1,10 @@
+CREATE TABLE users (
+  id UUID NOT NULL DEFAULT uuid_generate_v4(),
+  name VARCHAR NOT NULL DEFAULT '',
+  nickname VARCHAR NOT NULL DEFAULT '',
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  CONSTRAINT pkey_users PRIMARY KEY (id)
+);
+
+SELECT diesel_manage_updated_at('users');
